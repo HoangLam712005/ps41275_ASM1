@@ -1,0 +1,121 @@
+
+#header {
+    background-image: url('img/OIP.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+#top-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: rgb(179, 129, 111);; 
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+#top-menu > li {
+    display: inline-block;
+    font-variant: small-caps;
+}
+
+#top-menu > li > a {
+    padding: 8px;
+    display: block;
+    color: white; 
+    text-decoration: none; 
+}
+
+
+.Fpt > h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff; 
+    font-variant: small-caps;
+    text-shadow: 0 0 10px black; 
+    border-bottom: 2px dotted orangered; 
+    margin: 0;
+    font-size: 80px; 
+    text-align: center;
+}
+
+.Fpt > p {
+    font-variant: small-caps;
+    color: orangered;
+    text-shadow: 2 3 5px #000;
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.Fpt {
+    position: absolute;
+    width: 100%;
+    bottom: 130px;
+    
+}
+
+#bottom-menu {
+    background-color: rgb(179, 129, 111);
+    text-align: center;
+}
+
+
+#bottom-menu > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+#bottom-menu > ul > li {
+    display: inline-block;
+}
+
+
+#bottom-menu > ul > li a {
+    padding: 8px;
+    display: block;
+    color: white; 
+    text-decoration: none; 
+    font-variant: small-caps;
+}
+
+
+#product-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.product img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+/* Định dạng footer */
+#footer {
+    background-color: #333; 
+    color: white;
+    text-align: center; 
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
